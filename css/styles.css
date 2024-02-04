@@ -1,0 +1,204 @@
+#title {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-headng {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigantion Bar  */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 0;
+}
+
+/* Download-Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Section */
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Title-Image */
+
+.iphone6 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.features {
+  text-align: center;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.features-row {
+  padding: 10em 14rem;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-images {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem 1.25rem;
+  padding-bottom: 2.5rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 60px;
+}
+
+.price-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-heading {
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 140px 0px 80px;
+}
+
+#footer {
+  padding: 80px 0 30px;
+}
+
+.popcorn {
+  margin: 10px 10px 0;
+  color: black;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0 300px;
+}
